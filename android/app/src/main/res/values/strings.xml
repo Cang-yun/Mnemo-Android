@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Mnemo</string>
+    <string name="title_activity_main">Mnemo</string>
+    <string name="package_name">com.mnemo.mobile</string>
+    <string name="custom_url_scheme">com.mnemo.mobile</string>
+</resources>

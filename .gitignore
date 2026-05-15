@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+
+# Web build output
+dist/
+coverage/
+*.tsbuildinfo
+.vite/
+
+# Desktop-only source/output from the original Electron app
+electron/
+dist-electron/
+release/
+
+# Desktop legacy migration helpers
+scripts/
+
+# Android / Capacitor build output
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/
+android/app/src/main/assets/
+android/app/src/main/res/xml/config.xml
+
+# Local Android SDK configuration
+android/local.properties
+local.properties
+
+# Build artifacts and signing files
+assets/*.ico
+*.apk
+*.ap_
+*.aab
+*.aar
+*.dex
+*.class
+*.keystore
+*.jks
+
+# Logs and local environment
+*.log
+.env
+.env.*
+
+# IDE / OS files
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
+
+# Native build caches
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
