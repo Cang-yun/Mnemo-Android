@@ -20,41 +20,10 @@ Windows端见：[Mnemo](https://github.com/Cang-yun/Mnemo)
 
 ## 移动端说明
 
-- Android 端针对小屏幕重新适配了今日任务、月任务、计划、笔记、进度和设置页面。
+- 移动端针对小屏幕重新适配了今日任务、月任务、计划、笔记、进度和设置页面。
 - 不包含桌面端的窗口控制、系统托盘和开机自启。
 - 本地数据保存在应用私有目录；备份和笔记导出通过系统分享完成。
 - 云存档路径与桌面端一致，可与桌面端使用同一份 WebDAV 存档。
-
-## 环境
-
-```bash
-Node.js >= 22
-Android Studio / Android SDK
-```
-
-## 开发
-
-```bash
-npm install
-npm run dev            # 浏览器开发预览
-npm run android:sync   # 构建 Web 资源并同步到 Android 工程
-npm test               # 单元测试
-```
-
-## 打包
-
-```bash
-npm run build:web
-npx cap sync android
-cd android
-./gradlew assembleDebug
-```
-
-调试包输出位置：
-
-```bash
-android/app/build/outputs/apk/debug/app-debug.apk
-```
 
 ## 技术栈
 
